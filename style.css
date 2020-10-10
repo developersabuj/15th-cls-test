@@ -1,0 +1,379 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.clear::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.tex-center{
+    text-align: center;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    max-width:960px;
+}
+/* header */
+.header-area{
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+   background-image: url(./images/header-bg.jpg);
+   background-repeat: no-repeat;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position:center;  
+}
+.header-area .img{
+  margin-right: 60px ;
+}
+.menu-area{
+    padding: 40px 0;
+}
+.menu-area ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.menu-area ul li{
+    display: inline-block;
+    margin-right: 80px;
+
+
+}
+.menu-area ul li a{
+    display: block;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    border-bottom: 1px solid transparent;
+    transition: .4s;
+}
+.menu-area .img a{
+    border-bottom: none;
+}
+.menu-area .img:hover a{
+    border-bottom: none;
+}
+.menu-area ul li:hover a{
+    border-bottom: 1px solid #fafafa;
+
+}
+.menu-area .img{
+    width: 54px;
+    height: auto;
+}
+.get-start{
+    margin-top: 140px;
+}
+
+.get-start h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 48px;
+    word-spacing:10px;
+    font-weight: normal;
+}
+.get-start p{
+    color: #ffffff;
+    padding: 10px 5px;
+    margin-top: 10px;
+    font-size: 22px;
+    word-spacing: 5px;
+
+}
+.btn{
+    display: inline-block;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    background: #16a085;
+    padding: 10px 25px ;
+    border-radius: 2px;
+    transition: .4s;
+    border: 1px solid #dddddd;
+   
+}
+.btn:hover{
+    color:#16a085;
+    background: #fafafa;
+
+
+}
+.icon-area{
+    margin-top: 180px;
+}
+.icon-area ul{
+    list-style: none;
+    padding: 20px 0;
+
+}
+.icon-area ul li{
+    display: inline-block;
+    margin-right: 40px;
+}
+.icon-area ul li a{
+    display: block;
+    color: #ffffff;
+    font-size: 30px;
+    background: #1f8570;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+    transition: .5s;
+
+
+    
+}
+.icon-area ul li:hover a{
+    color: #1f8570;
+    background: #ffffff;
+
+}
+/* 2nd seection  */
+
+
+.hand-area{
+    background: #fcf8f8;
+    overflow: hidden;
+    max-height: 260px;
+    padding: 40px 0;
+}
+.hand-area .h-right img{
+    width: 100%;
+}
+.hand-area .h-left{
+    padding: 50px 0;
+}
+.col-1-2{
+    float: left;
+    width: 50%;
+    overflow: hidden;
+}
+.hand-area h3{
+    color: #16a085;
+    font-size: 14px ;
+    font-weight:600;
+    word-spacing: 5px;
+    line-height: 15px;
+    text-transform: uppercase;
+    line-height: 1.3em;
+
+}
+.hand-area p{
+    color: #dacfcf;
+    font-size: 14px ;
+    line-height: 20px;
+    margin: 30px 0;
+}
+/* 3rd section  */
+.mobile-m img{
+    width: 100%;
+}
+.mobile-area .mobile-m img{
+    width: 270px;
+    height: auto;
+    max-width: 100%;
+}
+
+.mobile-area{
+   padding: 50px 0;
+    overflow: hidden;
+    max-height:350px;
+    font-family: tahoma;
+   
+}
+.mobile-l{
+    float: left;
+    width: 40%;
+    overflow: hidden;
+    margin-right: 20%;
+    
+    
+}
+.design-text{
+    width: 40%;
+    overflow: hidden;
+}
+.text{
+    margin-top: 30px;
+}
+
+.design-text .text h3{
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #16a085;
+    letter-spacing: 3px;
+}
+.design-text .text p{
+    font-size: 13px;
+    color: #b1aeae;
+    line-height:20px;
+    margin: 20px 0;
+}
+
+.slide{
+    margin-top: 40px ;
+    font-weight: 600;
+}
+.arrow i{
+    font-size:20px;
+}
+
+/* 4th section  */
+.van-area{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 72px;
+    padding-bottom: 60px;
+}
+.col-1-3{
+    float: left;
+    overflow: hidden;
+    width: 32%;
+    margin-right: 2%;
+}
+.van-two{
+    margin-right: 0;
+}  
+.text-area .cm-area h4{
+    text-transform: uppercase;
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-weight: 500;
+    margin: 20px 0;
+    
+}
+.text-area .cm-area p{
+    font-size: 12px;
+    line-height: 1.3em;
+    
+}
+
+
+
+/* 5th section  */
+
+.subscribe-area{
+    background: url(./images/subscribe-bg.jpg) no-repeat 0 0 / 100% 100%;
+    padding: 250px;
+    
+   
+}
+.sub-bg .form input[type="email"]{
+    font-size: 16px;
+    border: none;
+    border-radius: 3px 0 0 3px ;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: black;
+    margin-right: 0;
+}
+.sub-bg h2{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin: 15px 5px;
+    color: #ffffff;
+    font-weight: 400;
+    white-space: 5px;
+}
+.sub-bg .form button[type="submit"]{
+    font-size: 16px;
+    border: none;
+    border-radius:0 3px 3px 0 ;
+    padding: 10px 20px;
+    background: #16a085;
+    color: #ffffff;
+    margin-left: -4px;
+}
+/* 6th section  */
+.apps-area {
+    
+    background-color: #ebf5f2;
+    padding: 40px 0;
+}
+.dwnld-area h5{
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    word-spacing: 3px ;
+    letter-spacing: 3px ;
+   margin-top: 40px;
+
+}
+.dwnld-area P{
+    width: 606px;
+    margin: auto;
+    font-size: 15px;
+    margin-top: 14px;
+    color: rgb(131, 134, 134);
+
+}
+.apps-dwn{
+    margin-top: 30px;
+    
+}
+.apps-dwn .aa{
+    margin-left: 20px;
+}
+.apps-dwn a{
+    text-decoration: none;
+    background:#16a085 ;
+    color: #ffffff;
+    font-size: 12px ;
+    text-transform: uppercase;
+    display: inline-block;
+    text-align: center;
+    padding: 1px 11px;
+    border-radius: 3px;
+}
+
+.apps-dwn span i{
+    color: rgb(255, 251, 251);
+    margin-left: 20px;
+    margin-right: -10px;
+    padding: 8px 10px !important;
+    font-size: 18px;
+    background: #22917a;
+}
+
+/* 7th section */
+.footer-area{
+    padding: 40px 0;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+
+}
+ .m-list{
+    float: left;
+    width: 70%;
+  
+}
+ .g-cam{
+    float: right;
+    width: 30%;
+}
+.m-list p a{
+display: inline-block;
+text-decoration: none;
+text-transform: uppercase;
+font-size: 12px;
+color: rgb(175, 170, 170);
+
+}
+.m-list p{
+    text-transform: capitalize;
+    font-size: 14px;
+    letter-spacing: 2px;
+    margin-top: 14px;
+    color: rgb(85, 82, 79);
+
+
+}
+.footer-area .g-cam img{
+    height: auto;
+    width: 50px;
+}
